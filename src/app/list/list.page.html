@@ -1,0 +1,26 @@
+<ion-header class="header">
+  <ion-toolbar color="favorite">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Anúncios
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let cat of categorias">
+      <ion-icon name="ios-leaf" slot="start"></ion-icon>
+      <div class="item-note" slot="start">
+        {{cat}}
+      </div>
+    </ion-item>
+  </ion-list>
+  <!--
+    <div *ngIf="selectedItem" padding>
+      You navigated here from <b>{{selectedItem.title }}</b>
+    </div>
+  -->
+</ion-content>

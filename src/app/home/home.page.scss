@@ -1,0 +1,41 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+.welcome-card {
+  border: 0px;
+} 
+ion-button{
+  margin-top: 40%;
+  border: #ffffffaf 1px solid;
+  border-radius: 6px;
+  width: 180px;
+  height: 50px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+}
+.welcome{
+  margin-top: 70px;
+  font-family: 'Anton', sans-serif;
+  font-size: 28pt;
+  /*-webkit-text-stroke-width: 1px; largura da borda 
+  -webkit-text-stroke-color: rgb(109, 108, 108); */
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 15px 0px 0px 60px;
+}
+
+p{
+  text-align: justify;
+  color: aliceblue;
+  font-family: 'Anton', sans-serif;
+  padding: 0px 0px 10px px;
+  font-size: 12pt;
+  margin-top: 30px; 
+  letter-spacing: 2px;
+}
+ion-content{
+  --background: rgb(226, 223, 17) url('/assets/img/campo.png') no-repeat center center / cover !important; 
+}
