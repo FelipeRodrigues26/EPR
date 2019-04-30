@@ -14,13 +14,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
-
-.ion-color-favorite {
-    --ion-color-base: #47805300;
-    --ion-color-base-rgb: 105,187,123;
-    --ion-color-contrast: #ffffff;
-    --ion-color-contrast-rgb: 255,255,255;
-    --ion-color-shade: #5ca56c;
-    --ion-color-tint: #78c288;
-
+ion-toolbar{
+    background-color: var(--ion-color-favorite);
+    color: var(--ion-color-favorite-contrast);
 }
