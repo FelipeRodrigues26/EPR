@@ -7,17 +7,92 @@
       Anúncios
     </ion-title>
   </ion-toolbar>
+
+  <ion-toolbar class="top">
+      <ion-tabs>
+          <ion-tab-bar color="favorite" slot="top">
+            
+            <ion-tab-button tab="home">
+              <ion-label>DDD 91-...</ion-label>
+            </ion-tab-button>
+
+            <ion-tab-button tab="home" id="centro">
+                <ion-label>Categoria</ion-label>
+            </ion-tab-button>
+              
+            <ion-tab-button tab="settings">
+              <ion-label>Filtros</ion-label>
+            </ion-tab-button>
+        
+          </ion-tab-bar>
+      </ion-tabs>
+  </ion-toolbar>
 </ion-header>
 
+
+
 <ion-content>
-  <ion-list>
-    <ion-item *ngFor="let cat of categorias">
-      <ion-icon name="ios-leaf" slot="start"></ion-icon>
-      <div class="item-note" slot="start">
-        {{cat}}
-      </div>
-    </ion-item>
-  </ion-list>
+
+    <ion-card>
+        <ion-item href="#" class="activated">
+          <ion-thumbnail slot="start">
+                <ion-img src="/assets/img/campo.png"></ion-img>
+          </ion-thumbnail>
+          <ion-card-content>
+              <h2>Laranja</h2>  
+              <h1>R$30,00</h1>
+              <p>01 de maio 00:42, Bragança</p>    
+          </ion-card-content>
+        </ion-item>
+    </ion-card>
+    <ion-card>
+        <ion-item href="#" class="activated">
+          <ion-thumbnail slot="start">
+                <ion-img src="/assets/img/agricultura.png"></ion-img>
+          </ion-thumbnail>
+          <ion-card-content>
+              <h2>Sortido de Frutas</h2>  
+              <h1>R$40,00</h1>
+              <p>03 de fevereiro 00:42, Santa Bárbara do Pará</p>    
+          </ion-card-content>
+        </ion-item>
+    </ion-card>
+    <ion-card>
+        <ion-item href="#" class="activated">
+          <ion-thumbnail slot="start">
+                <ion-img src="/assets/img/campo.png"></ion-img>
+          </ion-thumbnail>
+          <ion-card-content>
+              <h2>Uva kg</h2>  
+              <h1>R$20,00</h1>
+              <p>01 de maio 00:42, Santa Bárbara do Pará</p>    
+          </ion-card-content>
+        </ion-item>
+    </ion-card>
+    <ion-card>
+        <ion-item href="#" class="activated">
+          <ion-thumbnail slot="start">
+                <ion-img src="/assets/img/agricultura.png"></ion-img>
+          </ion-thumbnail>
+          <ion-card-content>
+              <h2>Cesta de Verduras</h2>  
+              <h1>R$40,00</h1>
+              <p>03 de fevereiro 00:42, Santa Bárbara do Pará</p>    
+          </ion-card-content>
+        </ion-item>
+    </ion-card>
+    <ion-card>
+        <ion-item href="#" class="activated">
+          <ion-thumbnail slot="start">
+                <ion-img src="/assets/img/campo.png"></ion-img>
+          </ion-thumbnail>
+          <ion-card-content>
+              <h2>Uva kg</h2>  
+              <h1>R$20,00</h1>
+              <p>01 de maio 00:42, Santa Bárbara do Pará</p>    
+          </ion-card-content>
+        </ion-item>
+    </ion-card>
   <!--
     <div *ngIf="selectedItem" padding>
       You navigated here from <b>{{selectedItem.title }}</b>
