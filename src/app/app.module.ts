@@ -8,9 +8,10 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TelaLoginComponent } from './tela-login/tela-login.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent,TelaLoginComponent],
   entryComponents: [],
   imports: [
     BrowserModule,

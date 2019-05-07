@@ -1,0 +1,28 @@
+.ion-color-google {
+    --ion-color-base:#dd4b39;
+    --ion-color-base-rgb: 105,187,123;
+    --ion-color-contrast: #ffffff;
+    --ion-color-contrast-rgb: 255,255,255;
+    --ion-color-shade: #c03d2c;
+    --ion-color-tint: #df6d5e;
+}
+ion-button{
+    background-color: var(--ion-color-favorite);
+    color: var(--ion-color-favorite-contrast);
+    width: 100%;
+    height: 8%;
+    border-radius: 6px;
+    margin-top: 8%;
+
+}
+ion-label{
+    font-weight: 500;   
+    font-size: 16px;
+
+}
+ion-content{
+    --padding-start:7%;
+    --padding-end:7%;
+    --padding-top:8%;
+}
+

@@ -29,6 +29,11 @@ export class AppComponent {
       title: 'Minha conta',
       url: '/list',
       icon: 'cloud'
+    },
+    {
+      title: 'login',
+      url: '/login',
+      icon: 'user'
     }
   ];
 
